@@ -1,0 +1,53 @@
+1) First non-repeating character of given string
+
+Given a string s of lowercase English letters, the task is to find the first non-repeating character. If there is no such character, return '$'.
+
+Examples: 
+
+Input: s = "geeksforgeeks"
+Output: 'f'
+Explanation: 'f' is the first character in the string which does not repeat.
+
+Input: s = "racecar"
+Output: 'e'
+Explanation: 'e' is the only character in the string which does not repeat.
+
+Input: "aabbccc"
+Output: '$'
+Explanation: All the characters in the given string are repeating.
+
+2) Given a sentence s, determine whether it is a palindrome sentence or not. A palindrome sentence is a sequence of characters that reads the same forward and backward after:
+
+Converting all uppercase letters to lowercase.
+Removing all non-alphanumeric characters (i.e., ignore spaces, punctuation, and symbols).
+Examples: 
+
+Input: s = "Too hot to hoot."
+Output: true
+Explanation: If we remove all non-alphanumeric characters and convert all uppercase letters to lowercase, string s will become "toohottohoot" which is a palindrome.
+
+Input: s = "Abc 012..##  10cbA"
+Output: true
+Explanation: If we remove all non-alphanumeric characters and convert all uppercase letters to lowercase, string s will become "abc01210cba" which is a palindrome.
+
+Input: s = "ABC $. def01ASDF.."
+Output: false
+Explanation: If we remove all non-alphanumeric characters and convert all uppercase letters to lowercase, string s will become "abcdef01asdf" which is not a palindrome.
+
+3) Reduce the string by removing K consecutive identical characters
+
+Given a string str and an integer k, the task is to reduce the string by applying the following operation any number of times until it is no longer possible:
+
+Choose a group of k consecutive identical characters and remove them from the string.
+
+Finally, print the reduced string.
+
+Examples:  
+
+Input: K = 2, str = "geeksforgeeks" 
+Output: gksforgks 
+Explanation: After removal of both occurrences of the substring "ee", the string reduces to "gksforgks".
+
+Input: K = 3, str = "qddxxxd" 
+Output: q 
+Explanation: Removal of "xxx" modifies the string to "qddd". Again, removal of "ddd" modifies the string to "q". 
