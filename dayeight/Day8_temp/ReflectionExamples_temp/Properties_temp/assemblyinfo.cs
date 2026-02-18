@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 
 
 
-[assembly: AssemblyTitle("OopsExamples")]
+[assembly: AssemblyTitle("ReflectionExamples")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("OopsExamples")]
+[assembly: AssemblyProduct("ReflectionExamples")]
 [assembly: AssemblyCopyright("Copyright ©  2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 
-[assembly: Guid("a18195a9-d160-47f1-b4e1-00f8ebafba4a")]
+[assembly: Guid("469b9016-53ed-4a90-947f-132d5e94d009")]
 
 
 

@@ -23,7 +23,7 @@ namespace Tests
                 res = "Good Afternoon to All...Mocked Data";
             }
             mock.Setup(x => x.Greeting()).Returns(res);
-            //Mock<IDetails> mock = new Mock<IDetails>();
+            
             mock.Setup(x => x.ShowCompany()).
                 Returns("Hi Company is Wipro Bangalore Offline Batch...");
             mock.Setup(x => x.ShowStudent()).

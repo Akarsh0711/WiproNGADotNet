@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 
 
 
-[assembly: AssemblyTitle("ClsCalculation")]
+[assembly: AssemblyTitle("ClsReflectionExample3")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ClsCalculation")]
+[assembly: AssemblyProduct("ClsReflectionExample3")]
 [assembly: AssemblyCopyright("Copyright ©  2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 
-[assembly: Guid("3f4f9092-7433-47f0-9872-e95a4f07b63e")]
+[assembly: Guid("bc42c02e-2203-4c7f-b8b1-a35737cc5eb9")]
 
 
 
