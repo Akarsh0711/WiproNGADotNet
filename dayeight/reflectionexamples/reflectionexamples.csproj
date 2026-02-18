@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A18195A9-D160-47F1-B4E1-00F8EBAFBA4A}</ProjectGuid>
+    <ProjectGuid>{469B9016-53ED-4A90-947F-132D5E94D009}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>OopsExamples</RootNamespace>
-    <AssemblyName>OopsExamples</AssemblyName>
+    <RootNamespace>ReflectionExamples</RootNamespace>
+    <AssemblyName>ReflectionExamples</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,11 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OopsExamples.IndexEmployEx</StartupObject>
+    <StartupObject>ReflectionExamples.P4</StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ClsCalculation">
-      <HintPath>..\ClsCalculation\bin\Debug\ClsCalculation.dll</HintPath>
+    <Reference Include="ClsReflectionExample1">
+      <HintPath>..\ClsReflectionExample1\bin\Debug\ClsReflectionExample1.dll</HintPath>
+    </Reference>
+    <Reference Include="ClsReflectionExample3">
+      <HintPath>..\ClsReflectionExample3\bin\Debug\ClsReflectionExample3.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -49,30 +52,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Agent.cs" />
-    <Compile Include="BasicComparator.cs" />
-    <Compile Include="CalcMain.cs" />
-    <Compile Include="DictEx1.cs" />
-    <Compile Include="DictEx2.cs" />
-    <Compile Include="Emp.cs" />
-    <Compile Include="Employ.cs" />
-    <Compile Include="EmploySortExample.cs" />
-    <Compile Include="ExtnEx1.cs" />
-    <Compile Include="GenEx2.cs" />
-    <Compile Include="GenEx3.cs" />
-    <Compile Include="GenExample1.cs" />
-    <Compile Include="GenListEx1.cs" />
-    <Compile Include="IndexEmployEx.cs" />
-    <Compile Include="IndexerEx.cs" />
-    <Compile Include="NameComparator.cs" />
-    <Compile Include="Nullable1.cs" />
-    <Compile Include="Nullable2.cs" />
-    <Compile Include="Nullable3.cs" />
-    <Compile Include="Operations.cs" />
+    <Compile Include="P1.cs" />
+    <Compile Include="P3.cs" />
+    <Compile Include="P4.cs" />
+    <Compile Include="P5.cs" />
+    <Compile Include="P6.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Program1.cs" />
+    <Compile Include="Program3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SortingExample.cs" />
-    <Compile Include="UseAuth.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A18195A9-D160-47F1-B4E1-00F8EBAFBA4A}</ProjectGuid>
+    <ProjectGuid>{7FD77FE5-04AA-438F-9016-0DC047599CC8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>OopsExamples</RootNamespace>
-    <AssemblyName>OopsExamples</AssemblyName>
+    <RootNamespace>DemoProject</RootNamespace>
+    <AssemblyName>DemoProject</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,12 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OopsExamples.IndexEmployEx</StartupObject>
+    <StartupObject>DemoProject.SyncEx</StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ClsCalculation">
-      <HintPath>..\ClsCalculation\bin\Debug\ClsCalculation.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -49,30 +46,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Agent.cs" />
-    <Compile Include="BasicComparator.cs" />
-    <Compile Include="CalcMain.cs" />
-    <Compile Include="DictEx1.cs" />
-    <Compile Include="DictEx2.cs" />
-    <Compile Include="Emp.cs" />
-    <Compile Include="Employ.cs" />
-    <Compile Include="EmploySortExample.cs" />
-    <Compile Include="ExtnEx1.cs" />
-    <Compile Include="GenEx2.cs" />
-    <Compile Include="GenEx3.cs" />
-    <Compile Include="GenExample1.cs" />
-    <Compile Include="GenListEx1.cs" />
-    <Compile Include="IndexEmployEx.cs" />
-    <Compile Include="IndexerEx.cs" />
-    <Compile Include="NameComparator.cs" />
-    <Compile Include="Nullable1.cs" />
-    <Compile Include="Nullable2.cs" />
-    <Compile Include="Nullable3.cs" />
-    <Compile Include="Operations.cs" />
+    <Compile Include="ActionDelegate1.cs" />
+    <Compile Include="ActionDelegate2.cs" />
+    <Compile Include="Anonymous.cs" />
+    <Compile Include="DelegateArray.cs" />
+    <Compile Include="DelegateExample1.cs" />
+    <Compile Include="DelegateExample2.cs" />
+    <Compile Include="EventExamle.cs" />
+    <Compile Include="FdEx3.cs" />
+    <Compile Include="FdEx4.cs" />
+    <Compile Include="FunctionalDelegateExample3.cs" />
+    <Compile Include="FunctionDelegateExample2.cs" />
+    <Compile Include="FunctionDelegateExample3.cs" />
+    <Compile Include="LoginExample.cs" />
+    <Compile Include="MultiCast.cs" />
+    <Compile Include="MultiCastEx2.cs" />
+    <Compile Include="PredicateEx1.cs" />
+    <Compile Include="PredicateNew.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SortingExample.cs" />
-    <Compile Include="UseAuth.cs" />
+    <Compile Include="SyncEx.cs" />
+    <Compile Include="ThreadExample1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

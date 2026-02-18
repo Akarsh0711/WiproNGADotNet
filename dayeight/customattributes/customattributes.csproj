@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A18195A9-D160-47F1-B4E1-00F8EBAFBA4A}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>OopsExamples</RootNamespace>
-    <AssemblyName>OopsExamples</AssemblyName>
+    <ProjectGuid>{1037D093-D5A4-4151-9555-8013D346C0EB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CustomAttributes</RootNamespace>
+    <AssemblyName>CustomAttributes</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -32,13 +30,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>OopsExamples.IndexEmployEx</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ClsCalculation">
-      <HintPath>..\ClsCalculation\bin\Debug\ClsCalculation.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -49,33 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Agent.cs" />
-    <Compile Include="BasicComparator.cs" />
-    <Compile Include="CalcMain.cs" />
-    <Compile Include="DictEx1.cs" />
-    <Compile Include="DictEx2.cs" />
-    <Compile Include="Emp.cs" />
-    <Compile Include="Employ.cs" />
-    <Compile Include="EmploySortExample.cs" />
-    <Compile Include="ExtnEx1.cs" />
-    <Compile Include="GenEx2.cs" />
-    <Compile Include="GenEx3.cs" />
-    <Compile Include="GenExample1.cs" />
-    <Compile Include="GenListEx1.cs" />
-    <Compile Include="IndexEmployEx.cs" />
-    <Compile Include="IndexerEx.cs" />
-    <Compile Include="NameComparator.cs" />
-    <Compile Include="Nullable1.cs" />
-    <Compile Include="Nullable2.cs" />
-    <Compile Include="Nullable3.cs" />
-    <Compile Include="Operations.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="CustomAttribute.cs" />
+    <Compile Include="CustomAttributes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SortingExample.cs" />
-    <Compile Include="UseAuth.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
